@@ -1,0 +1,238 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	/* box-sizing: border-box; */
+}
+
+img {
+	max-width: 85%;
+	height: auto;
+}
+
+body,html {
+	min-height: 100%;
+	width: 100%;
+}
+
+
+/* Main Styles */
+
+.main_container {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	width: 900px;
+	height: 900px;
+	background-color: antiquewhite;
+	border: #000 4px solid;
+}
+
+.container {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	width: 800px;
+	height: 800px;
+	background: #fff;
+	border: #000 3px solid;
+}
+
+img {
+	position: relative;
+	left: 6px;
+	top: 7px;
+	transition: all .3s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+.col {
+	position: absolute;
+}
+
+
+.col0{
+	top:10%;
+	left:2%;
+}
+.col0>.row{
+	width: auto;
+	height: 100px;
+	font-size: 30px;
+}
+
+.col1::after{
+	content: "a";
+	position: absolute;
+	left: 40%;
+	top: 101%;
+	font-size: 30px;
+}
+
+.col2::after{
+	content: "b";
+	position: absolute;
+	left: 40%;
+	top: 101%;
+	font-size: 30px;
+}
+.col3::after{
+	content: "c";
+	position: absolute;
+	left: 40%;
+	top: 101%;
+	font-size: 30px;
+}
+.col4::after{
+	content: "d";
+	position: absolute;
+	left: 40%;
+	top: 101%;
+	font-size: 30px;
+}
+.col5::after{
+	content: "e";
+	position: absolute;
+	left: 40%;
+	top: 101%;
+	font-size: 30px;
+}
+.col6::after{
+	content: "f";
+	position: absolute;
+	left: 40%;
+	top: 101%;
+	font-size: 30px;
+}
+.col7::after{
+	content: "g";
+	position: absolute;
+	left: 40%;
+	top: 101%;
+	font-size: 30px;
+}
+.col8::after{
+	content: "h";
+	position: absolute;
+	left: 40%;
+	top: 101%;
+	font-size: 30px;
+}
+
+
+
+.col1 {
+	left: 0px;
+}
+
+.col1>.row {
+	width: 100px;
+	height: 100px;
+}
+
+.col1>.row:nth-child(2n) {
+	background: #000;
+}
+
+
+
+.col2 {
+	left: 100px;
+}
+
+.col2>.row {
+	width: 100px;
+	height: 100px;
+}
+
+.col2>.row:nth-child(2n+1) {
+	background: #000;
+}
+
+.col3 {
+	left: 200px;
+}
+
+.col3>.row {
+	width: 100px;
+	height: 100px;
+}
+
+.col3>.row:nth-child(2n) {
+	background: #000;
+}
+
+.col4 {
+	left: 300px;
+}
+
+.col4>.row {
+	width: 100px;
+	height: 100px;
+}
+
+.col4>.row:nth-child(2n+1) {
+	background: #000;
+}
+
+.col5 {
+	left: 400px;
+}
+
+.col5>.row {
+	width: 100px;
+	height: 100px;
+}
+
+.col5>.row:nth-child(2n) {
+	background: #000;
+}
+
+.col6 {
+	left: 500px;
+}
+
+.col6>.row {
+	width: 100px;
+	height: 100px;
+}
+
+.col6>.row:nth-child(2n+1) {
+	background: #000;
+}
+
+.col7 {
+	left: 600px;
+}
+
+.col7>.row {
+	width: 100px;
+	height: 100px;
+}
+
+.col7>.row:nth-child(2n) {
+	background: #000;
+}
+
+.col8 {
+	left: 700px;
+}
+
+.col8>.row {
+	width: 100px;
+	height: 100px;
+}
+
+.col8>.row:nth-child(2n+1) {
+	background: #000;
+}
